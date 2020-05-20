@@ -1,4 +1,4 @@
-export GOPATH := ${GOPATH}:$(shell pwd)
+export GOPATH := /home/chenbin/bazel-gopath:$(shell pwd)
 export VERSION := "0.1.0"
 
 all:
@@ -7,6 +7,7 @@ all:
 	@echo "make deb     : build deb package"
 
 goget:
+	go get golang.org/x/net
 	go get github.com/microcosm-cc/bluemonday
 	go get github.com/shurcooL/github_flavored_markdown
 	go get github.com/go-martini/martini
@@ -20,7 +21,6 @@ goget:
 	go get github.com/sourcegraph/annotate
 	go get github.com/sourcegraph/syntaxhighlight
 	go get golang.org/x/crypto/bcrypt
-	go get golang.org/x/net
 
 docular:
 	go install -ldflags "-s -w" docular/cmd/docular
