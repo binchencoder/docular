@@ -171,19 +171,17 @@ strong {
 }
 pre,code {
 	border-radius: 3px;
-	color: rgb(165, 55, 55);
 	font-family: monospace;
 	font-size: 12px;
 	font-weight: 400;
-	padding: 0px 4px;
     width: 100%;
-    overflow: auto;
     word-wrap:break-word !important; /* Internet Explorer 5.5+ */ 
     white-space: pre-wrap !important; /* Firefox */
 }
 pre {
+    color: #333;
     width: 98%;
-    padding: 5px 5px 10px 10px;
+    padding: 5px 5px 10px 5px;
     margin: 15px 0;
     display: block;
     line-height: 18px;
@@ -194,8 +192,9 @@ pre {
     overflow-x: auto;
 }
 pre code {
+    color: rgb(165, 55, 55);
 	box-shadow: none;
-	padding: 2px 4px;
+	padding: 5px 5px 10px 0px;
 	overflow: auto;
 }
 a {

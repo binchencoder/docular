@@ -27,4 +27,4 @@ docular:
 	go install -ldflags "-s -w" docular/cmd/docular
 
 deb:
-	debmaker -version ${VERSION} -spec-file deb-docular.spec
+	debmaker -version ${VERSION} -spec-file deb-docular.spec -output-dir ./binaries
