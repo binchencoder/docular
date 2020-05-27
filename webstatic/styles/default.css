@@ -136,12 +136,21 @@ h5 {
 }
 blockquote {
     border-left: 4px solid #e67e22;
-	color: #666666;
-	line-height: 1.7em;
-	margin: 5px 40px;
-    padding-left: 8px;
+	color: rgb(0, 0, 0);
+	line-height: inherit;
+    padding: 15px 15px 15px 1rem;
+    border-left: 3px solid #dbdbdb;
+    border-left-width: 5px;
+    border-left-color: rgb(239, 112, 96);
+    background: rgb(239, 235, 233);
+    overflow: auto;
+    word-break: normal;
     margin-inline-start: auto;
     margin-inline-end: auto;
+}
+blockquote p {
+    margin: 0;
+    padding: 0;
 }
 svg {
 	font-family: Aleo, sans-serif;
@@ -182,10 +191,10 @@ pre,code {
 pre {
     color: #333;
     width: 98%;
-    padding: 5px 5px 10px 5px;
+    padding: 10px 5px 10px 10px;
     margin: 15px 0;
     display: block;
-    line-height: 18px;
+    line-height: 20px;
     background: #F0F0F0;
     border-radius: 3px;
     border: 1px solid #ddd;
