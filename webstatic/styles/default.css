@@ -109,30 +109,34 @@ h1 {
 	font-family: Aleo;
 	font-weight: bolder;
 	text-shadow: 0 1px 0 #fff;
-	text-align: center;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    line-height: 40px;
 }
 h2 {
 	color: #419eda;
 	font-family: Aleo;
 	font-weight: bold;
-	text-shadow: 0 1px 0 #fff;
+    text-shadow: 0 1px 0 #fff;
+    border-bottom: 2px solid #ddd;
+    line-height: 40px;
 }
 h3 {
 	color: #f04c5c;
 	font-family: Aleo;
 	font-weight: bold;
-	text-shadow: 0 1px 0 #fff;
+    text-shadow: 0 1px 0 #fff;
 }
 h4 {
 	font-family: Aleo;
 	font-weight: bold;
 	text-shadow: 0 1px 0 #fff;
-	margin: 20px 0 15px 0
+    margin: 20px 0 15px 0;
 }
 h5 {
 	font-family: Aleo;
 	font-size: bold;
-	margin-bottom: 2px
+    margin-bottom: 2px;
 }
 blockquote {
     border-left: 4px solid #e67e22;
